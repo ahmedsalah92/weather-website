@@ -20,7 +20,7 @@ weatherForm.addEventListener('submit', (e) => {
             if (data.error)
                 return message1.textContent = data.error
             else {
-                message1.textContent = 'The temperautre at ' + data.location + ' is ' + data.forecast
+                message1.textContent = 'The temperautre at ' + data.location + ' is ' + data.forecast + ' & the wind speed is ' + data.windSpeed
             }
         })
     })

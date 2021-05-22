@@ -15,6 +15,7 @@ const forecast = (lat, long, callback) => {
                 {
                     placename : body.location.name,
                     temperature : body.current.temperature,
+                    windSpeed: body.current.wind_speed
 
                 })
     })
